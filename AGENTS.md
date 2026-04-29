@@ -10,6 +10,7 @@ whenToUpdate: "When repo entry points, workflow commands, docpact config, MCP to
 checkPaths:
   - AGENTS.md
   - .docpact/config.yaml
+  - .github/workflows/docpact.yml
   - .github/prompts/**
   - _docs/**
 lastReviewedAt: 2026-04-29

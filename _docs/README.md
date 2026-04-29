@@ -11,6 +11,7 @@ checkPaths:
   - AGENTS.md
   - AGENTS_ZH.md
   - .docpact/config.yaml
+  - .github/workflows/docpact.yml
   - .github/prompts/**
   - _docs/**
 lastReviewedAt: 2026-04-29
@@ -27,6 +28,8 @@ low-entropy source-of-truth rules.
 
 - Layer 0: `AGENTS.md` for mandatory agent entry guidance.
 - Layer 1: `.docpact/config.yaml` for machine-readable governance.
+- CI: `.github/workflows/docpact.yml` for config validation and PR
+  documentation lint.
 - Layer 2: current contracts, architecture, standards, and runbooks under
   `_docs/**`.
 - Agent prompts: `.github/prompts/**` for MCP update guidance that is consumed

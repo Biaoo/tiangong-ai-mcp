@@ -13,6 +13,7 @@ routing:
         - AGENTS.md
         - AGENTS_ZH.md
         - .docpact/**
+        - .github/workflows/docpact.yml
         - .github/prompts/**
         - _docs/**
     architecture:
@@ -40,6 +41,7 @@ coverage:
     - DEV_EN.md
     - DEV_CN.md
     - .docpact/**
+    - .github/workflows/docpact.yml
     - _docs/**
     - package.json
     - tsconfig.json
@@ -94,6 +96,8 @@ rules:
         kind: localized-agent-contract
       - path: .docpact/config.yaml
         kind: machine-contract
+      - path: .github/workflows/docpact.yml
+        kind: governance-ci
       - path: .github/prompts/**
         kind: agent-prompt
       - path: _docs/**

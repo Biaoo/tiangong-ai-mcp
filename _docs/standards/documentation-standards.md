@@ -11,6 +11,7 @@ checkPaths:
   - AGENTS.md
   - AGENTS_ZH.md
   - .docpact/config.yaml
+  - .github/workflows/docpact.yml
   - .github/prompts/**
   - _docs/**
 lastReviewedAt: 2026-04-29
@@ -24,6 +25,8 @@ lastReviewedCommit: 04a3868c3b259fd4fe32b35b8198e20bbf4f329c
 - `AGENTS.md`: mandatory repo entry guidance for agents.
 - `.docpact/config.yaml`: machine-readable governance, routing, coverage, and
   document inventory.
+- `.github/workflows/docpact.yml`: CI enforcement for config validation and PR
+  documentation lint.
 - `_docs/contracts/**`: current constraints and ownership rules.
 - `_docs/architecture/**`: current server topology and integration facts.
 - `_docs/runbooks/**`: executable procedures.
